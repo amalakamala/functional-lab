@@ -21,6 +21,8 @@ Dado los mismos parametros siempre retorna la misma salida.
 Propiedad que tienen todoas las variables en js que pueden cambiar y no cambiar.
 Ese objeto durante el transurso del programa cambie.
 
--lodash es una libreria de ayuda
+- lodash es una libreria de ayuda sudo npm install lodash --save
+- yarn es como un npm pero más optimizado
+
 
 
