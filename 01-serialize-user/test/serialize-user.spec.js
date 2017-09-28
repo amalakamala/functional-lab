@@ -1,0 +1,1 @@
+const serializeUser = require('../serialize-user')
