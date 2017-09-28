@@ -1,7 +1,8 @@
 const serializeUser = user => {
-    user.name = (user.name.length > 10) ? `${user.name.slice(0, 7)}...` : user.name;
-    user.date = user.date.toJSON();
-    return JSON.stringify(user);
+    const userA =  Object.assign({}, user)   
+	userA.name = (userA.name.length > 10) ? `${userA.name.slice(0, 7)}...` : userA.name;
+	userA.date = userA.date.toJSON();
+	return JSON.stringify(userA);
 };
 
 module.exports = serializeUser;
