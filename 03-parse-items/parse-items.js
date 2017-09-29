@@ -1,8 +1,6 @@
-const parseItems = items => {
-  for (let i = 0; i < items.length; i++) {
-    items[i] = parseInt(items[i]);
-  }
-  return items.sort();
+const parseItems = (items) => {
+	const itemsA =  Object.assign([], items)  
+   	return itemsA.map(e=>parseInt(e)).sort()
 };
-
+//Number.isInteger(123) = true
 module.exports = parseItems;
