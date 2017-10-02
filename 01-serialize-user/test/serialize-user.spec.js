@@ -12,3 +12,4 @@ test('No debería mutar el objeto que recibe como argumento',
 	const actual = {userId:'xxx',name:'Grace Hopper',country:'us',date: new Date()}
 	expect(actual).toEqual({userId:'xxx',name:'Grace Hopper',country:'us',date: new Date()})
 })
+
