@@ -16,7 +16,6 @@ Dado los mismos parametros siempre retorna la misma salida.
 
 - Test-driven development (TDD)
 
-
 ## Inmutabilidad 
 Propiedad que tienen todoas las variables en js que pueden cambiar y no cambiar.
 Ese objeto durante el transurso del programa cambie.
@@ -24,5 +23,14 @@ Ese objeto durante el transurso del programa cambie.
 - lodash es una libreria de ayuda sudo npm install lodash --save
 - yarn es como un npm pero más optimizado
 
+## Recursividad
+
+
+## Asincronas 
+ get - Post - Delete - Put -patch
+ $.get(url, callback)
+
+ -Librerías Async 
+ promesas : forma sincrona de manejar la asincronidad
 
 
