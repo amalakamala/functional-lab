@@ -9,7 +9,7 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "",
+  "author": "Amala Kamala",
   "license": "ISC",
   "devDependencies": {
     "jest": "^21.2.1"
