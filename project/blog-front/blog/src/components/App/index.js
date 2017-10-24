@@ -22,7 +22,6 @@ class App extends Component {
       })
     })
   }
-
   render() {
     const { className } = this.props
     const { posts } = this.state
